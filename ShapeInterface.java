@@ -22,12 +22,11 @@ class Square implements ShapeInterface{
 	}
 
 	// implentation of interface methods
-	@override
+
 	public double area(){
 		return side * side;
 	}
 
-	@override
 	public void print(){
 		System.out.println("side = " + side);
 	}
